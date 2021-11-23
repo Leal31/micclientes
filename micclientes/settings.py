@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'micclientes.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'clientes',
+        'NAME': 'db_clientes',
         'HOST' : '127.0.0.1',
         'PORT' : '27017',
     }
